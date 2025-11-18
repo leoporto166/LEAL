@@ -18,6 +18,7 @@ html, body {
   height: 1px;
   background: transparent;
   z-index: 0;
+  color: white;
 }
 
 .emilys-candy-regular {
@@ -183,10 +184,10 @@ html, body {
 
 .glow {
   color: #71B6E6;
-  text-shadow: 0 0 4px #2f4d74a1,
-               0 0 8px #455c7a,
-               0 0 12px #3b6cac98,
-               0 0 20px #4064949d;
+  text-shadow: 0 0 4px #2f4d74be,
+               0 0 8px #4975ad,
+               0 0 12px #4d74a8d5,
+               0 0 20px #406494c9;
   animation: glowPulse ease-in-out infinite;
 }
 
@@ -204,7 +205,9 @@ html, body {
   color: white;
   padding: 10px;
   border: 2px solid white;
-  border-radius: 4px;
+  border-radius: 20px;
+  background-color: #17173a;
+  z-index: 2;
 
   box-shadow:
     0 0 4px rgba(255, 255, 255, 0.144),
@@ -214,3 +217,52 @@ html, body {
 
   animation: glowPulse 2s ease-in-out infinite;
 }
+
+.glow4 {
+  color: #000;
+  padding: 10px;
+  background: #18D860;
+  border: 2px solid #18D860;
+  border-radius: 4px;
+
+  box-shadow:
+    0 0 4px #18d86252,
+    0 0 8px #18d86259,
+    0 0 12px #18d86244,
+    0 0 20px #18d86249;
+
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+.glow5 {
+  color: white;
+  background: #ffffff;
+  text-shadow: 0 0 4px #2a2abb69,
+               0 0 8px #2a2abb69,
+               0 0 12px #2a2abb69,
+               0 0 20px #2a2abb69;
+  animation: glowPulse ease-in-out infinite;
+}
+
+.glow6 {
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #17173a;
+  z-index: 2;
+
+  box-shadow:
+    0 0 4px rgba(255, 255, 255, 0.144),
+    0 0 8px rgba(255, 255, 255, 0.055),
+    0 0 12px rgba(255, 255, 255, 0.062),
+    0 0 20px rgba(255, 255, 255, 0.171);
+
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
